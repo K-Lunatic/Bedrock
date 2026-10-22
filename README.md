@@ -1,13 +1,36 @@
-# Bedrock · 기초 학습
+# Bedrock · 게임과 임베디드로 이어지는 기초
 
-C·자료구조·알고리즘 학습 내용을 정리하기 위한 목차입니다. 현재 기본 브랜치의 아래 폴더에는 안내 README만 있으며, 구현 예제는 아직 등록되지 않았습니다.
+C언어·Java·자료구조·컴퓨터구조·운영체제·데이터베이스를 복습하고, 게임 개발과 임베디드 프로젝트에 연결하는 학습 기록입니다.
 
-| 분류 | 내용 |
-|---|---|
-| [Study project · C](Study_project-C) | C 학습 공간 |
-| [Data Structures](Data-Structures) | 자료구조 학습 공간 |
-| [Algorithm](Algorithm) | 알고리즘 학습 공간 |
+[방향과 다음 프로젝트](DIRECTION.md) · [터틀넥으로 문제 풀기](Study/README.md)
 
-C++ 초기 메모는 [Learn-cc](https://github.com/K-Lunatic/Learn-cc)에 별도로 보관합니다.
+## 과목별 정리
 
-완성된 프로젝트는 [Foundation](https://github.com/K-Lunatic/Foundation), 실험 기록은 [Experiment](https://github.com/K-Lunatic/Experiment)에서 구분해 소개합니다.
+| 과목 | 핵심 | 연결할 지점 |
+|---|---|---|
+| [C언어](Study_project-C/README.md) | 자료형·배열·포인터·수명 | 펌웨어·버퍼·메모리 |
+| [Java](Java/README.md) | 객체·상속·컬렉션·예외 | 상태 모델·이벤트·도구 |
+| [자료구조](Data-Structures/README.md) | 복잡도·리스트·스택·큐 | 입력 이벤트·링 버퍼 |
+| [컴퓨터구조](Computer-Architecture/README.md) | 명령어·연산·캐시·입출력 | MCU·프레임 성능 |
+| [운영체제](Operating-Systems/README.md) | 실행 단위·스케줄링·동기화 | 태스크·시간 제어 |
+| [데이터베이스](Database/README.md) | 모델·SQL·트랜잭션·인덱스 | 게임 저장·센서 기록 |
+
+Java 1·2는 Java 한 항목에서 연결해 다룹니다. 알고리즘은 [기존 학습 목차](Algorithm/README.md)에서 이어갈 수 있습니다.
+
+## 현재 자료의 범위
+
+수강 경험, 확인한 로컬 학습 메모·실습과 과목 정보를 바탕으로 새로 작성한 요약입니다. 전체 과목의 완주 기록이나 모든 수업 내용을 복원한 문서는 아닙니다. Notability 필기는 별도 확인 전이며, 특히 운영체제는 개인 필기 반영 전의 기초 복습 초안입니다.
+
+강의자료 PDF·녹음·실제 시험문항·개인 성적·계정 정보는 이 저장소와 학습 팩에 넣지 않습니다. 연습문제는 공개 요약에 근거해 새로 작성했습니다.
+
+## 먼저 해볼 순서
+
+1. C의 포인터·배열·메모리 수명을 복습합니다.
+2. 자료구조의 큐와 컴퓨터구조의 입출력을 연결합니다.
+3. 운영체제의 상태·대기·동기화를 ESP32 태스크와 연결합니다.
+4. 선택한 게임 엔진에서 입력 → 상태 갱신 → 화면 출력을 작게 구현합니다.
+5. ESP32 입력과 게임을 연결하고 지연·재연결 동작을 기록합니다.
+
+Java와 데이터베이스는 기존 기반을 정리하고, 실제 프로젝트에서 필요할 때 다시 확장합니다.
+
+[프로젝트 모음](https://github.com/K-Lunatic/Foundation) · [프로필](https://github.com/K-Lunatic)
