@@ -1,7 +1,7 @@
-# 🗻Bedrock
+# 알고리즘 학습
 
-- [`Study project - C`](https://github.com/K-Lunatic/Bedrock/tree/Default/Study_project-C)
-<br>
+자료구조와 함께 이어갈 기존 학습 공간입니다. 아직 별도의 알고리즘 구현 예제는 등록하지 않았습니다.
 
-- [`Data-Structures`](https://github.com/K-Lunatic/Bedrock/tree/Default/Data-Structures)
-- [`Algorithm`](https://github.com/K-Lunatic/tree/Default/Algorithm)
+게임과 임베디드에서는 먼저 문제의 크기, 메모리 사용량, 최악 실행 시간을 설명할 수 있는 것부터 기록합니다. 현재 확인한 복잡도와 탐색 개념은 [자료구조 정리](../Data-Structures/README.md)에 연결했습니다.
+
+[전체 목차](../README.md) · [방향 정리](../DIRECTION.md)

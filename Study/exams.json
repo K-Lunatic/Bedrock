@@ -1,0 +1,38 @@
+[
+  {
+    "subject": "C언어",
+    "courseId": "bedrock-c",
+    "examId": "e4da2754eed7b2deb3961d2e",
+    "questionCount": 4
+  },
+  {
+    "subject": "Java",
+    "courseId": "bedrock-java",
+    "examId": "23861ce9d6c8379f44f0cdf4",
+    "questionCount": 4
+  },
+  {
+    "subject": "자료구조",
+    "courseId": "bedrock-ds",
+    "examId": "6f9143ac8f6df21db351f66f",
+    "questionCount": 4
+  },
+  {
+    "subject": "컴퓨터구조",
+    "courseId": "bedrock-arch",
+    "examId": "5f6ad42957bfd147bb8589ca",
+    "questionCount": 4
+  },
+  {
+    "subject": "운영체제",
+    "courseId": "bedrock-os",
+    "examId": "e277996628175338565564ce",
+    "questionCount": 4
+  },
+  {
+    "subject": "데이터베이스",
+    "courseId": "bedrock-db",
+    "examId": "90521294c17c30d73b50691b",
+    "questionCount": 4
+  }
+]
